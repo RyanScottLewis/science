@@ -2,14 +2,14 @@
 
 Gem::Specification.new do |s|
   s.name = "science"
-  s.version = "0.0.1a"
+  s.version = "0.0.1b"
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ryan Scott Lewis"]
   s.date = "2013-02-25"
   s.description = "Knowledge."
   s.email = "ryan@rynet.us"
-  s.files = [".gitignore", ".rvmrc", "Gemfile", "Gemfile.lock", "Guardfile", "LICENSE", "README.md", "Rakefile", "VERSION", "lib/science.rb", "science.gemspec", "spec/science_spec.rb", "spec/spec_helper.rb"]
+  s.files = [".gitignore", ".rvmrc", "Gemfile", "Gemfile.lock", "Guardfile", "LICENSE", "README.md", "Rakefile", "VERSION", "examples/science/physical_geography/earth/elevation.rb", "lib/science.rb", "lib/science/helpers.rb", "lib/science/physical_geography.rb", "lib/science/physical_geography/earth.rb", "lib/science/physical_geography/earth/elevation.rb", "science.gemspec", "spec/science_spec.rb", "spec/spec_helper.rb"]
   s.homepage = "http://github.com/RyanScottLewis/science"
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.25"
