@@ -20,7 +20,13 @@ spec = Gem::Specification.new do |s|
   s.description = 'Knowledge.'
   
   # Dependencies
+  
+  # science
   s.add_dependency 'version', '~> 1.0'
+  
+  # science-physical_geography-elevation
+  s.add_dependency 'savon', '~> 2.1.0'
+  
   s.add_development_dependency 'guard-rspec', '~> 2.1'
   s.add_development_dependency 'guard-yard', '~> 2.0'
   s.add_development_dependency 'rb-fsevent', '~> 0.9'

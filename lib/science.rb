@@ -1,3 +1,4 @@
+require 'science/helpers'
 require 'logger'
 
 module Science
@@ -17,7 +18,7 @@ module Science
 	
 	# Cosmology, ExtragalacticAstronomy, GalacticAstronomy, PlanetaryAstronomy, StellarAstronomy, SolarAstronomy
 	
-	# Meteorology, Climatology, Ecology, Environmental, Geodesy, Geology, Geomorphology, Geophysics, Glaciology, Hydrology, 
+	# Meteorology, Climatology, Ecology, Environmental, Geodesy, Geology, Geomorphology, GeoPhysics, Glaciology, Hydrology, 
 	# Limnology, Oceanography, Paleoclimatology, Paleoecology, Palynology, Geography, Pedology, Edaphology
 	
 	# Anatomy, AstroBiology, BioGeography, BehavioralNeuroscience, BotanyCellBiology, ConservationBiology, CryoBiology
