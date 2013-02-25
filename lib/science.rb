@@ -1,3 +1,5 @@
+require 'logger'
+
 module Science
 	
 	# Modules:
@@ -36,4 +38,8 @@ module Science
 	# ArtificialIntelligence, Bioethics, Bioinformatics, Biostatistics, CognitiveScience, Cultural, Cybernetics
 	# Ethnics, EvolutionaryPsychology, Forestry, Military, Semiotics
 	
+  def self.logger
+    @@logger ||= Logger.new(STDOUT)
+  end
+  
 end
