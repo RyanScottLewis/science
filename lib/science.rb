@@ -34,7 +34,7 @@ module Science
   # MechanicalEngineering, MilitaryEngineering, MiningEngineering, NuclearEngineering, RoboticsEngineering
   # ComputerEngineering, SoftwareEngineering, NeuralEngineering
   
-  # Dentistry, Epidemiology, Medicinal, Pharmaceutical, Veterinary
+  # Dentistry, Epidemiology, Medicinal, Pharmaceutical, Veterinary, Nutritional
   
   # ArtificialIntelligence, Bioethics, Bioinformatics, Biostatistics, CognitiveScience, Cultural, Cybernetics
   # Ethnics, EvolutionaryPsychology, Forestry, Military, Semiotics
